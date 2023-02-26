@@ -1,0 +1,159 @@
+/*general*/
+body {
+    background-color: blanchedalmond;
+}
+h1 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    
+}
+h2 {
+    background-color: rgb(44, 94, 77);
+    font-size: 150px;
+    color: black;
+    text-align: center;
+}
+
+.seccion-box{
+  background-color: rgba(10, 39, 39, 0.582);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.titulo{
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: 'Satisfy', cursive;
+}
+
+.texto{
+  font-size: 20px;
+}
+
+/*barra de bootstrap*/
+.navbar{
+    padding: 2rem;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*personalizacion por secciones */
+ .principal{
+    background-color: silver;
+    min-height: 450px;
+    text-align: center;
+}
+
+.imagen-principal{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.datos{
+  height: 400px;
+  padding: 20px;
+}
+
+.datos .conteiner{
+max-width: 600px;
+text-align: center;
+}
+
+.estudios .row div { 
+  height: 250px;
+  background-color:rgb(44, 94, 77) ;
+  border: 3px solid rgba(10, 39, 39, 0.582);
+
+}
+
+.col-12{
+  border-radius: 5%;
+  border: rgb(0, 0, 0);
+}
+
+.estudios-titulo{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.experiencia{
+  height: 400px;
+  padding: 20px;
+}
+
+.experiencia-titulo{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.experiencia .conteiner{
+  margin: 30px 50px ;
+  font-size: 15px;
+  font-weight: bold;
+  border: 3 rem rgb(5, 51, 15);
+}
+
+.contactame .conteiner{
+  max-width: 1000px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contactame .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contactame button{
+  transition: all 0,3s ease-in-out;
+  border-radius: 100px;
+  background-color: transparent;
+  color: ghostwhite;
+  font-weight: bold;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 1px 2px ;
+}
+
+.contactame button:hover{
+  background-color: blue;
+  color: black;
+}
+
+.contactame button i{
+  color: azure;
+  font-size: 1.5rem;
+  transition: all 0,3s ease-in-out
+}
+
+.contactos button:hover{
+  color: black;
+}
+
+.footer{
+  max-width: 200px;
+}
+
+.footer-texto{
+  font-size: 1.5rem;
+  padding: 20px;
+  margin: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.author{
+  font-size: 15px;
+  padding: 20px;
+  color: black
+}
